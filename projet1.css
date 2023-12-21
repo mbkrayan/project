@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+
+}
+
+.Bloc1,.Bloc2 {
+    width: 100%;
+}
+
+.Bloc1 {
+    height: 8%; 
+    background-color: #000000;
+}
+
+.Bloc2 {
+    height: 100%; 
+    background-color: #2380dc;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.navbar button {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
